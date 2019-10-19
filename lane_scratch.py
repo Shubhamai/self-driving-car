@@ -66,6 +66,14 @@ while(cap.isOpened()):
             iii = iii - 1
 
 
+    
+    pts1 = np.float32([[476, 478], [757, 454], [108, 639], [1174, 621]])
+    pts2 = np.float32([[0, 0], [500, 0], [0, 600], [500, 600]])
+    matrix = cv2.getPerspectiveTransform(pts1, pts2)
+    result = cv2.warpPerspective(frame, matrix, (500, 600))
+    cv2.imshow("Perspective transformation", result)
+
+
     #display your handywork
     cv2.imshow('masked image', resized_right)
     
