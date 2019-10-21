@@ -1,4 +1,3 @@
-
 right_clicks = list()
 def mouse_callback(event, x, y, flags, params):
 
