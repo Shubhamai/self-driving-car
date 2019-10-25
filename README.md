@@ -19,7 +19,7 @@ This project is a demonstration of a working model of self driving car 🚗🚗 
 
 Self drining car are the cars which drive by itself without any human feedback. One of the big company that is making very best self driving car is Tesla.
 
-<img src="images/tesla%20image.jpg" alt="Tesla Self Driving Car" height="350" width="560">
+<img src="images/tesla.jpg" alt="Tesla Self Driving Car" height="350" width="560">
 
 
 Self driving cars are the future cars and the one of the top inventions for mankind. Self driving cars can save millions of lives which get wasted due to road accidents.
@@ -99,7 +99,7 @@ Currently in development...
 
 ## Work progress
 
-![Some insights of the work in progress](images/ezgif.com-gif-maker%20(1).gif)
+![Some insights of the work in progress](images\workprogressgif.gif)
 
 Here you can see that in the car video , the perspective transform method takes the frame in the video and rectify image simple known as  "birds-eye view" 🐦👁. Then the image is converted into a binary image (masking the image) and then the image runs through a canny edge detector to detect the edges.  
 
@@ -122,4 +122,3 @@ email - shubham.aiexpert@gmail.com
 Project Link: [https://github.com/Shubham2004-AI/self-driving-car](https://github.com/Shubham2004-AI/self-driving-car)
 
 Github page link : [https://shubham2004-ai.github.io/self-driving-car/](https://shubham2004-ai.github.io/self-driving-car/)
->>>>>>> 92085cd8c0472201d040e8a201e8112c8fdd9eb2
