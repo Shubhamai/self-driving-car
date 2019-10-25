@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import numpy as np
 
+# Reading Video
 cap = cv2.VideoCapture('road.mp4')
 
 from mouse_call import mouse_callback
