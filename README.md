@@ -5,8 +5,8 @@ This project is a demonstration of a working model of self driving car 🚗🚗 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [Description](#Description)
-* [Idea description](#Idea-Discription)
+* [Description](#description-🗨🗨)
+* [Idea description](#idea-discription)
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
 * [Getting Started](#getting-started)
@@ -99,7 +99,7 @@ Currently in development...
 
 ## Work progress
 
-![Some insights of the work in progress](images\workprogressgif.gif)
+![Some insights of the work in progress](https://github.com/Shubham2004-AI/self-driving-car/blob/master/images/workprogressgif.gif)
 
 Here you can see that in the car video , the perspective transform method takes the frame in the video and rectify image simple known as  "birds-eye view" 🐦👁. Then the image is converted into a binary image (masking the image) and then the image runs through a canny edge detector to detect the edges.  
 
