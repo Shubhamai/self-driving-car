@@ -4,7 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Reading Video
 cap = cv2.VideoCapture('road.mp4')
 
 from mouse_call import mouse_callback
@@ -26,10 +25,10 @@ while(cap.isOpened()):
     
     cropped_image = crop_img(undistorted_frame)
     
-    result = pres_transform(pts1, pts2, undistorted_frame)
+    result = pres_transform(undistorted_frame, pts1, pts2)
     
     edges = detect_edges(result, canny_threshold1, canny_threshold2, hough_rho, hough_theta , hough_threshold, hough_lines , hough_minLineLength, hough_maxLineGap)
-    
+
     color_mask = mask_image(result, white_low, white_high, yellow_low, yellow_low)
     
     
