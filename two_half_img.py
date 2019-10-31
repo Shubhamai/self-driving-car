@@ -1,10 +1,7 @@
 import numpy as np
 import cv2
 
-def crop_img_two(frame):
-    MARGIN = 10
-    hist = np.sum(frame, axis=0)
-    lhist, rhist = hist[:262], hist[262:]
-    lcenter, rcenter = np.argmax(lhist), np.argmax(rhist)+262
-    llo, lhi, rlo, rhi = lcenter-MARGIN, lcenter+MARGIN, rcenter-MARGIN, rcenter+MARGIN
-    return frame[:,llo:lhi], frame[:,rlo:rhi]
+def crop_img_two(frame, one_shape, two_shape):
+    one = frame[one_shape[0][0]:one_shape[0][1] , one_shape[1][0]:one_shape[1][1]]
+    two = frame[two_shape[0][0]:two_shape[0][1] , two_shape[1][0]:two_shape[1][1]]
+    return one, two

@@ -25,3 +25,7 @@ white_high = np.array([255, 30, 255])
 
 yellow_low = np.array([0, 50, 0])
 yellow_high = np.array([110, 255, 255])
+
+# Crop Image in two
+one_shape = [[3, 597] , [1, 225]]
+two_shape = [[0, 598], [235 ,497]]
