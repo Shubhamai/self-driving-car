@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-
+import matplotlib.pyplot as plt
 
 def pres_transform(frame, pts1, pts2):
 
@@ -19,3 +19,8 @@ def undo_pres_transform(frame, pts1=np.float32([(0, 0), (1, 0), (0, 1), (1, 1)])
     matrix = cv2.getPerspectiveTransform(pts1, pts2)
     inverse_pres_transform = cv2.warpPerspective(frame, matrix, (500, 600))
     return inverse_pres_transform
+
+def draw_hist(frame):
+    histogram = np.sum(frame[frame.shape[0]//2:,:], axis=0)
+    plt.plot(histogram)
+    plt.show()

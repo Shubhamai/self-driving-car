@@ -23,5 +23,5 @@ hough_maxLineGap = 20
 white_low = np.array([0, 0, 210])
 white_high = np.array([255, 30, 255])
 
-yellow_low = np.array([18, 50, 60])
-yellow_high = np.array([80, 255, 255])
+yellow_low = np.array([0,100,0])
+yellow_high = np.array([50,255,255])

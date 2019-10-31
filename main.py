@@ -8,7 +8,7 @@ cap = cv2.VideoCapture('road.mp4')
 
 from mouse_call import mouse_callback
 from crop import crop_img
-from prespective_transform import pres_transform
+from prespective_transform import pres_transform, undo_pres_transform, draw_hist
 from edge_detect import detect_edges
 from camera_calib import do_calibration, undistort
 from mask_img import mask_image
@@ -31,11 +31,15 @@ while(cap.isOpened()):
 
     color_mask = mask_image(result, white_low, white_high, yellow_low, yellow_low)
     
+    undo_pres = undo_pres_transform(result)
+    
+    #draw_hist(color_mask)
     
     cv2.imshow('crop_img', cropped_image)
     cv2.imshow('undistort_image', undistorted_frame)
     cv2.imshow("Perspective transformation", result)
     cv2.imshow("Mask", color_mask)
+    cv2.imshow('undo', undo_pres)
     cv2.imshow('frame', frame)
     cv2.imshow('Edges', edges)
     cv2.setMouseCallback('frame', mouse_callback)
