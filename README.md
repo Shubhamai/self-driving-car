@@ -74,9 +74,9 @@ Behind scenes there ans many steps followed by the car to follow the lanes and d
 
 This project is build with ->
 
-- Hardware 🔧 [![Generic badge](https://img.shields.io/badge/Raspberry_PI_3_model_B+--<COLOR>.svg)](https://shields.io/)
+- Hardware 🔧 [![Generic badge](https://img.shields.io/badge/Raspberry_PI_4_Model_B--<COLOR>.svg)](https://shields.io/)
 
-  - RespberryPI B+ Model 
+  - RespberryPI 4 Model 
   - RespberryPI Camera
   - STM32
   
