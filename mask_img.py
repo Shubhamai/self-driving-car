@@ -1,5 +1,6 @@
 import cv2
 
+# To make a binary image
 def mask_image(frame, white_low, white_high, yellow_low, yellow_high):
     img_hsv = cv2.cvtColor(frame, cv2.COLOR_RGB2HSV)
 

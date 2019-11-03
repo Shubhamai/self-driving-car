@@ -99,9 +99,9 @@ Currently in development...
 
 ## Work progress
 
-![Some insights of the work in progress](https://github.com/Shubham2004-AI/self-driving-car/blob/master/images/workprogressgif.gif)
+![Some insights of the work in progress](images/updated_gif.gif)
 
-Here you can see that in the car video , the perspective transform method takes the frame in the video and rectify image simple known as  "birds-eye view" 🐦👁. Then the image is converted into a binary image (masking the image) and then the image runs through a canny edge detector to detect the edges.  
+Here a lot of things going on, but in simple in the car video, the perspective transform method takes the frame in the video and rectify image simple known as  "birds-eye view" 🐦👁. Then the image is converted into a binary image (masking the image) and then the image runs through a canny edge detector to detect the edges. The masked frame is also crop in two pastes (see here that there are two frame named one (see left) and two (see right)). Currently i am working on numpy poly fit to make lines in this masked image. 
 
 # License [![License](https://img.shields.io/badge/License-GNU%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
