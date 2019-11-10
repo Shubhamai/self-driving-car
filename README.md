@@ -1,4 +1,4 @@
-# Self Driving Car [![Generic badge](https://img.shields.io/badge/Status-In_Development-<COLOR>.svg)](https://shields.io/) [![Open Source Love png3](https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
+# Self Driving Car [![Generic badge](https://img.shields.io/badge/Status-In_Development-<COLOR>.svg)](https://shields.io/) ![Open Source Love png3](https://badges.frapsoft.com/os/v3/open-source.png?v=103)
 
 This project is a demonstration of a working model of self driving car 🚗🚗 identifying and following lanes using powerful computer vision 🕶🕶 algorithms.
 
