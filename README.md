@@ -78,7 +78,6 @@ This project is build with ->
 
   - RespberryPI 4 Model 
   - RespberryPI Camera
-  - STM32
   
 - Software (Programming tech) 💻
 
